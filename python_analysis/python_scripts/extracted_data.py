@@ -143,4 +143,4 @@ readable_df = pd.DataFrame(readable_summary)
 readable_df = readable_df.sort_values(['Risk Factor', 'Age'])
 readable_df.to_csv('../tables/readable_summary.csv', index=False)
 
-print("Data extraction and organization complete.")
+print("Data extraction and organisation complete.")

@@ -30,7 +30,7 @@ summary_df['P-value_numeric'] = summary_df['P-value'].astype(float)
 # Create significance indicator
 summary_df['Significant'] = summary_df['P-value_numeric'] < 0.05
 
-# Create a summary visualization showing significant associations by age
+# Create a summary visualisation showing significant associations by age
 age_counts = summary_df.groupby('Age')['Significant'].agg(['count', 'sum'])
 age_counts['percent'] = (age_counts['sum'] / age_counts['count']) * 100
 
@@ -75,7 +75,7 @@ plt.tight_layout()
 plt.savefig('../figures/significant_associations_by_age.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Create a summary visualization showing effect sizes by risk factor
+# Create a summary visualisation showing effect sizes by risk factor
 risk_factor_summary = summary_df.groupby('Risk Factor').agg({
     'Coefficient': ['mean', 'min', 'max', 'std'],
     'Significant': 'mean',
@@ -124,7 +124,7 @@ plt.tight_layout()
 plt.savefig('../figures/average_effect_by_risk_factor.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Create a summary visualization showing the pattern of associations across development
+# Create a summary visualisation showing the pattern of associations across development
 # Group data into developmental periods
 summary_df['Period'] = pd.cut(
     summary_df['Age'], 
@@ -223,4 +223,4 @@ plt.tight_layout()
 plt.savefig('../figures/consistency_strength_scatter.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-print("Additional visualizations complete.")
+print("Additional visualisations complete.")
