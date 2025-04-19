@@ -6,7 +6,7 @@ This extended analysis builds upon the previous work by examining the relationsh
 
 ## Developmental Periods
 
-The analysis categorizes ages into three developmental periods:
+The analysis categorises ages into three developmental periods:
 
 1. **Childhood (9-12 years)**: Early development period
 2. **Adolescence (13-16 years)**: Period of pubertal development and increasing autonomy

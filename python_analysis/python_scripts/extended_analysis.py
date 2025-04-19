@@ -90,7 +90,7 @@ risk_period_summary['Proportion_Significant'] = risk_period_summary['Proportion_
 # Save the table
 risk_period_summary.to_csv('../tables/risk_factor_by_developmental_period.csv')
 
-# Create a visualization of effect sizes by developmental period
+# Create a visualisation of effect sizes by developmental period
 plt.figure(figsize=(14, 10))
 #sns.boxplot(x='Developmental_Period', y='Coefficient', data=summary_df, palette='viridis')
 sns.boxplot(x='Developmental_Period', y='Coefficient', hue='Developmental_Period',
@@ -104,7 +104,7 @@ plt.tight_layout()
 plt.savefig('../figures/effect_sizes_by_period.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Create a visualization of proportion of significant associations by developmental period
+# Create a visualisation of proportion of significant associations by developmental period
 sig_by_period = summary_df.groupby('Developmental_Period')['Significant'].mean() * 100
 plt.figure(figsize=(10, 6))
 bars = plt.bar(sig_by_period.index, sig_by_period.values, color='skyblue')
@@ -139,7 +139,7 @@ plt.tight_layout()
 plt.savefig('../figures/heatmap_by_period.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Create a visualization of effect sizes by risk factor category
+# Create a visualisation of effect sizes by risk factor category
 # Group risk factors into categories
 risk_categories = {
     'Anthropometric': ['Body Mass Index', 'Waist Circumference'],
@@ -180,7 +180,7 @@ plt.tight_layout()
 plt.savefig('../figures/effect_sizes_by_category.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# Create a visualization of proportion of significant associations by risk category
+# Create a visualisation of proportion of significant associations by risk category
 sig_by_category = summary_df.groupby('Risk_Category', observed=True)['Significant'].mean() * 100
 plt.figure(figsize=(10, 6))
 bars = plt.bar(
@@ -278,7 +278,7 @@ df = df.sort_values('Unnamed: 0')
 # Save back to the same file
 df.to_csv(file_path, index=False)
 
-# Create a visualization of the trajectory of effect sizes across ages for each risk factor category
+# Create a visualisation of the trajectory of effect sizes across ages for each risk factor category
 # Modified trajectory plotting section
 
 # Modified trajectory plotting with 3 significant figures
@@ -414,7 +414,7 @@ with open('../docs/extended_analysis_summary.md', 'w') as f:
     f.write('This extended analysis builds upon the previous work by examining the relationship between childhood cognitive ability and cardiovascular risk factors across different developmental periods and risk factor categories. The analysis aims to provide a more nuanced understanding of how these relationships evolve across development and vary by type of cardiovascular risk factor.\n\n')
     
     f.write('## Developmental Periods\n\n')
-    f.write('The analysis categorizes ages into three developmental periods:\n\n')
+    f.write('The analysis categorises ages into three developmental periods:\n\n')
     f.write('1. **Childhood (9-12 years)**: Early development period\n')
     f.write('2. **Adolescence (13-16 years)**: Period of pubertal development and increasing autonomy\n')
     f.write('3. **Early Adulthood (17-24 years)**: Transition to adulthood and establishment of adult health behaviors\n\n')

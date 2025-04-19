@@ -34,9 +34,9 @@ summary_df['Significant'] = summary_df['P-value_numeric'] < 0.05
 # Group data by age
 age_groups = summary_df.groupby('Age')
 
-# Function to analyze data by age
-def analyze_by_age(age, data):
-    """Analyze the relationship between cognitive ability and cardiovascular risk factors at a specific age."""
+# Function to analyse data by age
+def analyse_by_age(age, data):
+    """Analyse the relationship between cognitive ability and cardiovascular risk factors at a specific age."""
     # Sort by absolute coefficient value to see strongest associations first
     sorted_data = data.sort_values(by='Coefficient', key=abs, ascending=False)
     
@@ -74,10 +74,10 @@ def analyze_by_age(age, data):
     
     return summary, sorted_data
 
-# Analyze each age group
+# Analyse each age group
 age_analyses = []
 for age, data in age_groups:
-    summary, sorted_data = analyze_by_age(age, data)
+    summary, sorted_data = analyse_by_age(age, data)
     age_analyses.append(summary)
     
     # Create a bar plot for this age
@@ -166,7 +166,7 @@ with open('../docs/age_specific_findings.md', 'w') as f:
     f.write('# Age-Specific Analysis of Childhood Cognitive Ability and Cardiovascular Risk Factors\n\n')
     
     for age, data in age_groups:
-        summary, sorted_data = analyze_by_age(age, data)
+        summary, sorted_data = analyse_by_age(age, data)
         
         f.write(f'## Age {int(age)} Analysis\n\n')
         

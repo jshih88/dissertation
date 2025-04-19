@@ -35,9 +35,9 @@ summary_df['Significant'] = summary_df['P-value_numeric'] < 0.05
 # Group data by risk factor
 risk_factor_groups = summary_df.groupby('Risk Factor')
 
-# Function to analyze trends across ages for each risk factor
-def analyze_trends_by_risk_factor(risk_factor, data):
-    """Analyze how the relationship between cognitive ability and a specific cardiovascular risk factor changes across ages."""
+# Function to analyse trends across ages for each risk factor
+def analyse_trends_by_risk_factor(risk_factor, data):
+    """Analyse how the relationship between cognitive ability and a specific cardiovascular risk factor changes across ages."""
     # Sort by age
     sorted_data = data.sort_values(by='Age')
     
@@ -89,10 +89,10 @@ def analyze_trends_by_risk_factor(risk_factor, data):
     
     return summary, sorted_data
 
-# Analyze trends for each risk factor
+# Analyse trends for each risk factor
 trend_analyses = []
 for risk_factor, data in risk_factor_groups:
-    summary, sorted_data = analyze_trends_by_risk_factor(risk_factor, data)
+    summary, sorted_data = analyse_trends_by_risk_factor(risk_factor, data)
     trend_analyses.append(summary)
     
     # Create a line plot for this risk factor across ages
