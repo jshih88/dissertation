@@ -1,4 +1,4 @@
-# Dissertation Project Repository !
+# Dissertation Project Repository
 
 This repository contains all materials used for the dissertation project, organised into a structured framework for both Python and Stata analyses.
 
@@ -68,3 +68,34 @@ To use this repository:
 
 3. Follow the specific instructions in the documentation files within each directory.
 
+## Workflow Sequences
+
+### Stata Analysis
+
+**Base Directory** = "stata/"
+
+1. Run "do_files/js_all_data_regress_iq8_exposures_age_sex_ses.do" in Stata to create the log files in directory "log_files/*.log". This do-file also includes do-files "js_template.do" and "js_gen_ses.do"
+
+2. Run "scripts/js_all_data_regress_iq8_results.sh" that uses "log_files/*.log" to create the consolidated table "tables/js_all_data_regress_iq8_results.csv"
+
+3. Run "scripts/js_all_data_regress_iq8_exposures_plot_by_age.do" that uses "tables/js_all_data_regress_iq8_results.csv" to create plots in "figures/iq8_<age>_all_depvars_sorted.png"
+
+4. Run "scripts/js_all_data_regress_iq8_exposures_plot_by_depvars.do" that uses "tables/js_all_data_regress_iq8_results.csv" to create plots in "figures/js_all_data_regress_iq8_<depvar>_age_sex_ses.png"
+
+### Python Data Science Ecosystem Analysis
+
+**Base Directory** = "python_analysis/"
+
+5. Run "scripts/stata_regress_zscore_by_age_by_depvar.sh" that uses "../stata/log_files/*.log" to create the consolidated table "tables/stata_regress_zscore_by_age_by_depvar.csv"
+
+6. Run "scripts/stata_regress_zscore_by_depvar_by_age.sh" that uses "../stata/log_files/*.log" to create the consolidated table "tables/stata_regress_zscore_by_depvar_by_age.csv"
+
+7. Run "python_scripts/extracted_data.py" to extract data from "tables/stata_regress_zscore_by_depvar_by_age.csv" and customize them to "tables/all_results_summary.csv" and "tables/readable_summary.csv"
+
+8. Run "python_scripts/age_specific_analysis.py"
+
+9. Run "python_scripts/cross_age_trend_analysis.py"
+
+10. Run "extended_analysis.py"
+
+11. Run "additional_visualisations.py"
