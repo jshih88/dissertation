@@ -1,4 +1,4 @@
-# Dissertation Project Repository - js
+# Dissertation Project Repository
 
 This repository contains all materials used for the dissertation project, organised into a structured framework for both Python and Stata analyses.
 
