@@ -92,10 +92,10 @@ To use this repository:
 
 7. Run "python_scripts/extracted_data.py" to extract data from "tables/stata_regress_zscore_by_depvar_by_age.csv" and customize them to "tables/all_results_summary.csv" and "tables/readable_summary.csv"
 
-8. Run "python_scripts/age_specific_analysis.py"
+8. Run "python_scripts/age_specific_analysis.py" that uses "tables/readable_summary.csv"
 
-9. Run "python_scripts/cross_age_trend_analysis.py"
+9. Run "python_scripts/cross_age_trend_analysis.py" that uses "tables/readable_summary.csv"
 
-10. Run "extended_analysis.py"
+10. Run "extended_analysis.py" that uses "tables/readable_summary.csv"
 
-11. Run "additional_visualisations.py"
+11. Run "additional_visualisations.py" that uses "tables/readable_summary.csv"
