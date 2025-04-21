@@ -45,7 +45,6 @@ summary_df['Developmental_Period'] = pd.cut(
 )
 
 # Create a table of participant characteristics by developmental period
-#period_characteristics = summary_df.groupby('Developmental_Period').agg({
 period_characteristics = summary_df.groupby('Developmental_Period', observed=True).agg({
     'Sample Size': ['mean', 'min', 'max', 'count'],
     'R²': ['mean', 'min', 'max'],
@@ -64,7 +63,6 @@ period_characteristics['Proportion_Significant'] = period_characteristics['Propo
 period_characteristics.to_csv('../tables/participant_characteristics_by_period.csv')
 
 # Create a more detailed table of results by risk factor and developmental period
-#risk_period_summary = summary_df.groupby(['Risk Factor', 'Developmental_Period']).agg({
 risk_period_summary = summary_df.groupby(['Risk Factor', 'Developmental_Period'], observed=True).agg({
     'Coefficient': ['mean', 'std', 'count'],
     'P-value_numeric': 'mean',
@@ -92,7 +90,6 @@ risk_period_summary.to_csv('../tables/risk_factor_by_developmental_period.csv')
 
 # Create a visualisation of effect sizes by developmental period
 plt.figure(figsize=(14, 10))
-#sns.boxplot(x='Developmental_Period', y='Coefficient', data=summary_df, palette='viridis')
 sns.boxplot(x='Developmental_Period', y='Coefficient', hue='Developmental_Period',
             data=summary_df, palette='viridis', legend=False)
 plt.axhline(y=0, color='r', linestyle='-', alpha=0.3)
@@ -105,7 +102,7 @@ plt.savefig('../figures/effect_sizes_by_period.png', dpi=300, bbox_inches='tight
 plt.close()
 
 # Create a visualisation of proportion of significant associations by developmental period
-sig_by_period = summary_df.groupby('Developmental_Period')['Significant'].mean() * 100
+sig_by_period = summary_df.groupby('Developmental_Period', observed=True)['Significant'].mean() * 100
 plt.figure(figsize=(10, 6))
 bars = plt.bar(sig_by_period.index, sig_by_period.values, color='skyblue')
 plt.title('Proportion of Significant Associations by Developmental Period', fontsize=16)
@@ -129,7 +126,8 @@ pivot_data = summary_df.pivot_table(
     index='Risk Factor', 
     columns='Developmental_Period', 
     values='Coefficient',
-    aggfunc='mean'
+    aggfunc='mean',
+    observed=True
 )
 
 plt.figure(figsize=(12, 10))
@@ -170,7 +168,9 @@ summary_df['Risk_Category'] = pd.Categorical(
 
 # Create boxplot of effect sizes by risk category
 plt.figure(figsize=(14, 8))
-sns.boxplot(x='Risk_Category', y='Coefficient', data=summary_df, palette='viridis')
+# Fix the seaborn boxplot warning by adding hue parameter
+sns.boxplot(x='Risk_Category', y='Coefficient', hue='Risk_Category', 
+            data=summary_df, palette='viridis', legend=False)
 plt.axhline(y=0, color='r', linestyle='-', alpha=0.3)
 plt.title('Distribution of Effect Sizes by Risk Factor Category', fontsize=16)
 plt.xlabel('Risk Factor Category', fontsize=14)
@@ -209,14 +209,14 @@ category_period_pivot = summary_df.pivot_table(
     index='Risk_Category', 
     columns='Developmental_Period', 
     values='Coefficient',
-    aggfunc='mean'
+    aggfunc='mean',
+    observed=True
 )
 
 # Reindex to ensure correct order
 category_period_pivot = category_period_pivot.reindex(category_order)
 
 plt.figure(figsize=(12, 8))
-#sns.heatmap(category_period_pivot, cmap='RdBu_r', center=0, annot=True, fmt='.4f', linewidths=.5)
 sns.heatmap(
     category_period_pivot,
     cmap='RdBu_r',
@@ -231,7 +231,7 @@ plt.savefig('../figures/heatmap_category_by_period.png', dpi=300, bbox_inches='t
 plt.close()
 
 # Create a table of effect sizes by risk category and developmental period
-category_period_summary = summary_df.groupby(['Risk_Category', 'Developmental_Period']).agg({
+category_period_summary = summary_df.groupby(['Risk_Category', 'Developmental_Period'], observed=True).agg({
     'Coefficient': ['mean', 'std', 'count'],
     'P-value_numeric': 'mean',
     'Significant': 'mean',

@@ -31,7 +31,7 @@ summary_df['P-value_numeric'] = summary_df['P-value'].astype(float)
 summary_df['Significant'] = summary_df['P-value_numeric'] < 0.05
 
 # Create a summary visualisation showing significant associations by age
-age_counts = summary_df.groupby('Age')['Significant'].agg(['count', 'sum'])
+age_counts = summary_df.groupby('Age', observed=True)['Significant'].agg(['count', 'sum'])
 age_counts['percent'] = (age_counts['sum'] / age_counts['count']) * 100
 
 plt.figure(figsize=(14, 8))
@@ -76,7 +76,7 @@ plt.savefig('../figures/significant_associations_by_age.png', dpi=300, bbox_inch
 plt.close()
 
 # Create a summary visualisation showing effect sizes by risk factor
-risk_factor_summary = summary_df.groupby('Risk Factor').agg({
+risk_factor_summary = summary_df.groupby('Risk Factor', observed=True).agg({
     'Coefficient': ['mean', 'min', 'max', 'std'],
     'Significant': 'mean',
     'Age': 'count'
@@ -132,7 +132,7 @@ summary_df['Period'] = pd.cut(
     labels=['Childhood (9-12)', 'Adolescence (13-16)', 'Early Adulthood (17-24)']
 )
 
-period_summary = summary_df.groupby(['Risk Factor', 'Period']).agg({
+period_summary = summary_df.groupby(['Risk Factor', 'Period'], observed=True).agg({
     'Coefficient': 'mean',
     'Significant': 'mean',
     'Age': 'count'
@@ -162,7 +162,7 @@ plt.close()
 
 # Create a summary of the most consistent and strongest associations
 # For each risk factor, calculate the percentage of ages with significant associations
-risk_consistency = summary_df.groupby('Risk Factor').agg({
+risk_consistency = summary_df.groupby('Risk Factor', observed=True).agg({
     'Significant': 'mean',
     'Coefficient': ['mean', 'min', 'max', lambda x: x.abs().mean()],
     'Age': 'count'
