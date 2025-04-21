@@ -19,8 +19,8 @@ The strongest association was with Body Mass Index (coefficient = -0.0021, p = 0
 | Total Cholesterol | -0.0018 | 0.0800 | No |
 | Diastolic Blood Pressure | -0.0018 | 0.0300 | Yes |
 | Low-Density Lipoprotein | -0.0015 | 0.1400 | No |
-| Glucose Metabolism | -0.0014 | 0.2000 | No |
 | Systolic Blood Pressure | -0.0014 | 0.0830 | No |
+| Glucose Metabolism | -0.0014 | 0.2000 | No |
 | Waist Circumference | -0.0011 | 0.1750 | No |
 | High-Density Lipoprotein | -0.0009 | 0.3950 | No |
 | Insulin | 0.0007 | 0.4420 | No |
@@ -152,10 +152,10 @@ The strongest association was with Body Mass Index (coefficient = -0.0029, p = 0
 |-------------|-------------|---------|-------------|
 | Body Mass Index | -0.0029 | 0.0020 | Yes |
 | Insulin | -0.0025 | 0.0050 | Yes |
-| Glucose Metabolism | -0.0025 | 0.0280 | Yes |
 | Waist Circumference | -0.0025 | 0.0200 | Yes |
-| Diastolic Blood Pressure | -0.0022 | 0.0280 | Yes |
+| Glucose Metabolism | -0.0025 | 0.0280 | Yes |
 | Triglycerides | 0.0022 | 0.0640 | No |
+| Diastolic Blood Pressure | -0.0022 | 0.0280 | Yes |
 | Low-Density Lipoprotein | -0.0020 | 0.0890 | No |
 | Systolic Blood Pressure | 0.0018 | 0.0650 | No |
 | Total Cholesterol | -0.0017 | 0.1520 | No |
