@@ -4,7 +4,7 @@
 
 **Input:**
 - Multiple Stata log files containing regression results (stored in `../../stata/log_files/`)
-- Log files follow naming pattern: `js_all_data_regress_iq8_[variable]_age_sex_ses.log`
+- Log files follow naming pattern: `js_all_data_regress_z_iq8_[variable]_age_sex_ses.log`
 - Variables include: bmi, wc, bp_sys, bp_dia, chol, hdl, ldl, trig, glc_meta, insul
 
 **Logic:**
@@ -28,7 +28,7 @@
 
 **Input:**
 - Identical to the first script: same Stata log files from the same directory
-- Log files follow naming pattern: `js_all_data_regress_iq8_[variable]_age_sex_ses.log`
+- Log files follow naming pattern: `js_all_data_regress_z_iq8_[variable]_age_sex_ses.log`
 - Variables include: bmi, wc, bp_sys, bp_dia, chol, hdl, ldl, trig, glc_meta, insul
 
 **Logic:**

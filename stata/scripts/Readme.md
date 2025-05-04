@@ -1,4 +1,4 @@
-# Bash Script Analysis: js_all_data_regress_iq8_results.sh
+# Bash Script Analysis: js_all_data_regress_z_iq8_results.sh
 
 ## Overview
 
@@ -7,7 +7,7 @@ This bash script extracts and formats regression results from multiple Stata log
 ## Input
 
 - Multiple Stata log files containing regression results (stored in `../log_files/`)
-- Log files follow naming pattern: `js_all_data_regress_iq8_[variable]_age_sex_ses.log`
+- Log files follow naming pattern: `js_all_data_regress_z_iq8_[variable]_age_sex_ses.log`
 - Variables include: bmi, wc, bp_sys, bp_dia, chol, hdl, ldl, trig, glc_meta, insul
 
 ## Logic

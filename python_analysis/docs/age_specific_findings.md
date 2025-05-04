@@ -10,21 +10,21 @@ At age 9, 10 cardiovascular risk factors were measured. Of these, 2 (20.0%) show
 - Positive associations (higher IQ, higher risk factor): 1
 
 ### Strongest Associations
-The strongest association was with Body Mass Index (coefficient = -0.0021, p = 0.0090).
+The strongest association was with Body Mass Index (coefficient = -0.0349, p = 0.0090).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Body Mass Index | -0.0021 | 0.0090 | Yes |
-| Total Cholesterol | -0.0018 | 0.0800 | No |
-| Diastolic Blood Pressure | -0.0018 | 0.0300 | Yes |
-| Low-Density Lipoprotein | -0.0015 | 0.1400 | No |
-| Glucose Metabolism | -0.0014 | 0.2000 | No |
-| Systolic Blood Pressure | -0.0014 | 0.0830 | No |
-| Waist Circumference | -0.0011 | 0.1750 | No |
-| High-Density Lipoprotein | -0.0009 | 0.3950 | No |
-| Insulin | 0.0007 | 0.4420 | No |
-| Triglycerides | -0.0001 | 0.9210 | No |
+| Body Mass Index | -0.0349 | 0.0090 | Yes |
+| Diastolic Blood Pressure | -0.0304 | 0.0300 | Yes |
+| Total Cholesterol | -0.0295 | 0.0800 | No |
+| Low-Density Lipoprotein | -0.0247 | 0.1400 | No |
+| Systolic Blood Pressure | -0.0240 | 0.0830 | No |
+| Glucose Metabolism | -0.0227 | 0.2000 | No |
+| Waist Circumference | -0.0181 | 0.1750 | No |
+| High-Density Lipoprotein | -0.0145 | 0.3950 | No |
+| Insulin | 0.0124 | 0.4420 | No |
+| Triglycerides | -0.0017 | 0.9210 | No |
 
 
 ## Age 10 Analysis
@@ -37,15 +37,15 @@ At age 10, 10 cardiovascular risk factors were measured. Of these, 3 (30.0%) sho
 - Positive associations (higher IQ, higher risk factor): 0
 
 ### Strongest Associations
-The strongest association was with Systolic Blood Pressure (coefficient = -0.0040, p = 0.0000).
+The strongest association was with Diastolic Blood Pressure (coefficient = -0.0669, p = 0.0000).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Systolic Blood Pressure | -0.0040 | 0.0000 | Yes |
-| Diastolic Blood Pressure | -0.0040 | 0.0000 | Yes |
-| Body Mass Index | -0.0024 | 0.0040 | Yes |
-| Waist Circumference | -0.0016 | 0.0550 | No |
+| Diastolic Blood Pressure | -0.0669 | 0.0000 | Yes |
+| Systolic Blood Pressure | -0.0659 | 0.0000 | Yes |
+| Body Mass Index | -0.0394 | 0.0040 | Yes |
+| Waist Circumference | -0.0262 | 0.0550 | No |
 | High-Density Lipoprotein | nan | nan | No |
 | Insulin | nan | nan | No |
 | Low-Density Lipoprotein | nan | nan | No |
@@ -64,15 +64,15 @@ At age 11, 10 cardiovascular risk factors were measured. Of these, 4 (40.0%) sho
 - Positive associations (higher IQ, higher risk factor): 0
 
 ### Strongest Associations
-The strongest association was with Body Mass Index (coefficient = -0.0034, p = 0.0000).
+The strongest association was with Body Mass Index (coefficient = -0.0568, p = 0.0000).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Body Mass Index | -0.0034 | 0.0000 | Yes |
-| Waist Circumference | -0.0030 | 0.0000 | Yes |
-| Diastolic Blood Pressure | -0.0023 | 0.0080 | Yes |
-| Systolic Blood Pressure | -0.0019 | 0.0320 | Yes |
+| Body Mass Index | -0.0568 | 0.0000 | Yes |
+| Waist Circumference | -0.0498 | 0.0000 | Yes |
+| Diastolic Blood Pressure | -0.0387 | 0.0080 | Yes |
+| Systolic Blood Pressure | -0.0311 | 0.0320 | Yes |
 | High-Density Lipoprotein | nan | nan | No |
 | Insulin | nan | nan | No |
 | Low-Density Lipoprotein | nan | nan | No |
@@ -91,15 +91,15 @@ At age 12, 10 cardiovascular risk factors were measured. Of these, 2 (20.0%) sho
 - Positive associations (higher IQ, higher risk factor): 0
 
 ### Strongest Associations
-The strongest association was with Body Mass Index (coefficient = -0.0029, p = 0.0010).
+The strongest association was with Body Mass Index (coefficient = -0.0481, p = 0.0010).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Body Mass Index | -0.0029 | 0.0010 | Yes |
-| Waist Circumference | -0.0029 | 0.0010 | Yes |
-| Systolic Blood Pressure | -0.0011 | 0.1990 | No |
-| Diastolic Blood Pressure | -0.0001 | 0.9300 | No |
+| Body Mass Index | -0.0481 | 0.0010 | Yes |
+| Waist Circumference | -0.0478 | 0.0010 | Yes |
+| Systolic Blood Pressure | -0.0188 | 0.1990 | No |
+| Diastolic Blood Pressure | -0.0013 | 0.9300 | No |
 | High-Density Lipoprotein | nan | nan | No |
 | Insulin | nan | nan | No |
 | Low-Density Lipoprotein | nan | nan | No |
@@ -118,15 +118,15 @@ At age 13, 10 cardiovascular risk factors were measured. Of these, 3 (30.0%) sho
 - Positive associations (higher IQ, higher risk factor): 0
 
 ### Strongest Associations
-The strongest association was with Body Mass Index (coefficient = -0.0030, p = 0.0010).
+The strongest association was with Body Mass Index (coefficient = -0.0490, p = 0.0010).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Body Mass Index | -0.0030 | 0.0010 | Yes |
-| Waist Circumference | -0.0027 | 0.0030 | Yes |
-| Diastolic Blood Pressure | -0.0020 | 0.0420 | Yes |
-| Systolic Blood Pressure | -0.0018 | 0.0670 | No |
+| Body Mass Index | -0.0490 | 0.0010 | Yes |
+| Waist Circumference | -0.0447 | 0.0030 | Yes |
+| Diastolic Blood Pressure | -0.0330 | 0.0420 | Yes |
+| Systolic Blood Pressure | -0.0297 | 0.0670 | No |
 | High-Density Lipoprotein | nan | nan | No |
 | Insulin | nan | nan | No |
 | Low-Density Lipoprotein | nan | nan | No |
@@ -145,21 +145,21 @@ At age 15, 10 cardiovascular risk factors were measured. Of these, 5 (50.0%) sho
 - Positive associations (higher IQ, higher risk factor): 2
 
 ### Strongest Associations
-The strongest association was with Body Mass Index (coefficient = -0.0029, p = 0.0020).
+The strongest association was with Body Mass Index (coefficient = -0.0485, p = 0.0020).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Body Mass Index | -0.0029 | 0.0020 | Yes |
-| Insulin | -0.0025 | 0.0050 | Yes |
-| Glucose Metabolism | -0.0025 | 0.0280 | Yes |
-| Waist Circumference | -0.0025 | 0.0200 | Yes |
-| Diastolic Blood Pressure | -0.0022 | 0.0280 | Yes |
-| Triglycerides | 0.0022 | 0.0640 | No |
-| Low-Density Lipoprotein | -0.0020 | 0.0890 | No |
-| Systolic Blood Pressure | 0.0018 | 0.0650 | No |
-| Total Cholesterol | -0.0017 | 0.1520 | No |
-| High-Density Lipoprotein | -0.0012 | 0.3290 | No |
+| Body Mass Index | -0.0485 | 0.0020 | Yes |
+| Glucose Metabolism | -0.0420 | 0.0280 | Yes |
+| Waist Circumference | -0.0412 | 0.0200 | Yes |
+| Insulin | -0.0410 | 0.0050 | Yes |
+| Triglycerides | 0.0368 | 0.0640 | No |
+| Diastolic Blood Pressure | -0.0364 | 0.0280 | Yes |
+| Low-Density Lipoprotein | -0.0336 | 0.0890 | No |
+| Systolic Blood Pressure | 0.0298 | 0.0650 | No |
+| Total Cholesterol | -0.0278 | 0.1520 | No |
+| High-Density Lipoprotein | -0.0198 | 0.3290 | No |
 
 
 ## Age 17 Analysis
@@ -172,20 +172,20 @@ At age 17, 10 cardiovascular risk factors were measured. Of these, 2 (20.0%) sho
 - Positive associations (higher IQ, higher risk factor): 5
 
 ### Strongest Associations
-The strongest association was with Diastolic Blood Pressure (coefficient = -0.0044, p = 0.0000).
+The strongest association was with Diastolic Blood Pressure (coefficient = -0.0723, p = 0.0000).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Diastolic Blood Pressure | -0.0044 | 0.0000 | Yes |
-| Body Mass Index | -0.0036 | 0.0000 | Yes |
-| Glucose Metabolism | 0.0024 | 0.0760 | No |
-| Insulin | -0.0022 | 0.1060 | No |
-| Systolic Blood Pressure | -0.0015 | 0.1210 | No |
-| Total Cholesterol | 0.0012 | 0.3180 | No |
-| High-Density Lipoprotein | 0.0011 | 0.3980 | No |
-| Triglycerides | 0.0009 | 0.4720 | No |
-| Low-Density Lipoprotein | 0.0007 | 0.5850 | No |
+| Diastolic Blood Pressure | -0.0723 | 0.0000 | Yes |
+| Body Mass Index | -0.0591 | 0.0000 | Yes |
+| Glucose Metabolism | 0.0401 | 0.0760 | No |
+| Insulin | -0.0358 | 0.1060 | No |
+| Systolic Blood Pressure | -0.0241 | 0.1210 | No |
+| Total Cholesterol | 0.0205 | 0.3180 | No |
+| High-Density Lipoprotein | 0.0176 | 0.3980 | No |
+| Triglycerides | 0.0152 | 0.4720 | No |
+| Low-Density Lipoprotein | 0.0116 | 0.5850 | No |
 | Waist Circumference | nan | nan | No |
 
 
@@ -195,24 +195,24 @@ The strongest association was with Diastolic Blood Pressure (coefficient = -0.00
 At age 24, 10 cardiovascular risk factors were measured. Of these, 6 (60.0%) showed a statistically significant association with childhood IQ measured at age 8.
 
 ### Direction of Associations
-- Negative associations (higher IQ, lower risk factor): 7
+- Negative associations (higher IQ, lower risk factor): 8
 - Positive associations (higher IQ, higher risk factor): 2
 
 ### Strongest Associations
-The strongest association was with Waist Circumference (coefficient = -0.0054, p = 0.0000).
+The strongest association was with Waist Circumference (coefficient = -0.0887, p = 0.0000).
 
 ### Detailed Findings
 | Risk Factor | Coefficient | P-value | Significant |
 |-------------|-------------|---------|-------------|
-| Waist Circumference | -0.0054 | 0.0000 | Yes |
-| Body Mass Index | -0.0052 | 0.0000 | Yes |
-| Insulin | -0.0043 | 0.0020 | Yes |
-| High-Density Lipoprotein | 0.0033 | 0.0100 | Yes |
-| Diastolic Blood Pressure | -0.0027 | 0.0240 | Yes |
-| Systolic Blood Pressure | -0.0023 | 0.0300 | Yes |
-| Low-Density Lipoprotein | -0.0012 | 0.3550 | No |
-| Total Cholesterol | 0.0003 | 0.8030 | No |
-| Glucose Metabolism | -0.0001 | 0.9620 | No |
-| Triglycerides | -0.0000 | 0.9920 | No |
+| Waist Circumference | -0.0887 | 0.0000 | Yes |
+| Body Mass Index | -0.0852 | 0.0000 | Yes |
+| Insulin | -0.0707 | 0.0020 | Yes |
+| High-Density Lipoprotein | 0.0548 | 0.0100 | Yes |
+| Diastolic Blood Pressure | -0.0454 | 0.0240 | Yes |
+| Systolic Blood Pressure | -0.0385 | 0.0300 | Yes |
+| Low-Density Lipoprotein | -0.0204 | 0.3550 | No |
+| Total Cholesterol | 0.0054 | 0.8030 | No |
+| Glucose Metabolism | -0.0009 | 0.9620 | No |
+| Triglycerides | -0.0002 | 0.9920 | No |
 
 

@@ -1,9 +1,9 @@
 Age,Total Factors Measured,Significant Associations,Percent Significant,Negative Associations,Positive Associations,Average Effect Size,Strongest Association,Strongest Coefficient,Strongest P-value
-9.0,10,2,20.0,9,1,0.0012799999999999999,Body Mass Index,-0.0021,0.009
-10.0,10,3,30.0,4,0,0.003,Systolic Blood Pressure,-0.004,0.0
-11.0,10,4,40.0,4,0,0.0026499999999999996,Body Mass Index,-0.0034,0.0
-12.0,10,2,20.0,4,0,0.0017499999999999998,Body Mass Index,-0.0029,0.001
-13.0,10,3,30.0,4,0,0.002375,Body Mass Index,-0.003,0.001
-15.0,10,5,50.0,8,2,0.00215,Body Mass Index,-0.0029,0.002
-17.0,10,2,20.0,4,5,0.002,Diastolic Blood Pressure,-0.0044,0.0
-24.0,10,6,60.0,7,2,0.00248,Waist Circumference,-0.0054,0.0
+9.0,10,2,20.0,9,1,0.02129,Body Mass Index,-0.0349,0.009
+10.0,10,3,30.0,4,0,0.0496,Diastolic Blood Pressure,-0.0669,0.0
+11.0,10,4,40.0,4,0,0.0441,Body Mass Index,-0.0568,0.0
+12.0,10,2,20.0,4,0,0.028999999999999998,Body Mass Index,-0.0481,0.001
+13.0,10,3,30.0,4,0,0.0391,Body Mass Index,-0.049,0.001
+15.0,10,5,50.0,8,2,0.03569,Body Mass Index,-0.0485,0.002
+17.0,10,2,20.0,4,5,0.03292222222222222,Diastolic Blood Pressure,-0.0723,0.0
+24.0,10,6,60.0,8,2,0.04102,Waist Circumference,-0.0887,0.0

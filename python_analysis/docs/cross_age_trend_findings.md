@@ -21,36 +21,36 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 ### Body Mass Index
 
 - **Trend Direction**: decreasing
-- **Trend Significance**: significant (p = 0.0009)
-- **Trend Slope**: -0.000181
-- **R-squared**: 0.858
-- **Early Ages Mean Coefficient**: -0.0028
-- **Late Ages Mean Coefficient**: -0.0044
-- **Change from Early to Late Ages**: -0.0016
+- **Trend Significance**: significant (p = 0.0011)
+- **Trend Slope**: -0.002928
+- **R-squared**: 0.851
+- **Early Ages Mean Coefficient**: -0.0461
+- **Late Ages Mean Coefficient**: -0.0721
+- **Change from Early to Late Ages**: -0.0260
 
 **Interpretation**: The negative association between childhood IQ and this risk factor strengthens with age.
 
 ### Diastolic Blood Pressure
 
 - **Trend Direction**: decreasing
-- **Trend Significance**: non-significant (p = 0.5728)
-- **Trend Slope**: -0.000065
-- **R-squared**: 0.056
-- **Early Ages Mean Coefficient**: -0.0021
-- **Late Ages Mean Coefficient**: -0.0036
-- **Change from Early to Late Ages**: -0.0015
+- **Trend Significance**: non-significant (p = 0.5767)
+- **Trend Slope**: -0.001071
+- **R-squared**: 0.055
+- **Early Ages Mean Coefficient**: -0.0345
+- **Late Ages Mean Coefficient**: -0.0588
+- **Change from Early to Late Ages**: -0.0244
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
 ### Systolic Blood Pressure
 
 - **Trend Direction**: increasing
-- **Trend Significance**: non-significant (p = 0.8138)
-- **Trend Slope**: 0.000033
+- **Trend Significance**: non-significant (p = 0.8117)
+- **Trend Slope**: 0.000554
 - **R-squared**: 0.010
-- **Early Ages Mean Coefficient**: -0.0014
-- **Late Ages Mean Coefficient**: -0.0019
-- **Change from Early to Late Ages**: -0.0005
+- **Early Ages Mean Coefficient**: -0.0233
+- **Late Ages Mean Coefficient**: -0.0313
+- **Change from Early to Late Ages**: -0.0080
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -60,9 +60,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0019
-- **Late Ages Mean Coefficient**: 0.0011
-- **Change from Early to Late Ages**: 0.0031
+- **Early Ages Mean Coefficient**: -0.0324
+- **Late Ages Mean Coefficient**: 0.0196
+- **Change from Early to Late Ages**: 0.0520
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -72,9 +72,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0010
-- **Late Ages Mean Coefficient**: 0.0022
-- **Change from Early to Late Ages**: 0.0033
+- **Early Ages Mean Coefficient**: -0.0172
+- **Late Ages Mean Coefficient**: 0.0362
+- **Change from Early to Late Ages**: 0.0534
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -84,9 +84,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0009
-- **Late Ages Mean Coefficient**: -0.0033
-- **Change from Early to Late Ages**: -0.0024
+- **Early Ages Mean Coefficient**: -0.0143
+- **Late Ages Mean Coefficient**: -0.0532
+- **Change from Early to Late Ages**: -0.0389
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -96,9 +96,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0018
-- **Late Ages Mean Coefficient**: -0.0002
-- **Change from Early to Late Ages**: 0.0015
+- **Early Ages Mean Coefficient**: -0.0291
+- **Late Ages Mean Coefficient**: -0.0044
+- **Change from Early to Late Ages**: 0.0247
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -108,9 +108,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0017
-- **Late Ages Mean Coefficient**: 0.0007
-- **Change from Early to Late Ages**: 0.0025
+- **Early Ages Mean Coefficient**: -0.0286
+- **Late Ages Mean Coefficient**: 0.0129
+- **Change from Early to Late Ages**: 0.0416
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -120,9 +120,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: 0.0011
-- **Late Ages Mean Coefficient**: 0.0004
-- **Change from Early to Late Ages**: -0.0006
+- **Early Ages Mean Coefficient**: 0.0175
+- **Late Ages Mean Coefficient**: 0.0075
+- **Change from Early to Late Ages**: -0.0100
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -132,9 +132,9 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 - **Trend Significance**: non-significant (p = nan)
 - **Trend Slope**: nan
 - **R-squared**: nan
-- **Early Ages Mean Coefficient**: -0.0023
-- **Late Ages Mean Coefficient**: -0.0054
-- **Change from Early to Late Ages**: -0.0031
+- **Early Ages Mean Coefficient**: -0.0380
+- **Late Ages Mean Coefficient**: -0.0887
+- **Change from Early to Late Ages**: -0.0507
 
 **Interpretation**: No significant trend was observed in the association between childhood IQ and this risk factor across ages.
 
@@ -142,7 +142,7 @@ Comparing early ages (≤15 years) with later ages (>15 years):
 
 ### Significant Trends
 
-- **Body Mass Index**: strengthening negative association with age (slope = -0.000181, p = 0.0009)
+- **Body Mass Index**: strengthening negative association with age (slope = -0.002928, p = 0.0011)
 
 ### Consistent Associations Across Ages
 

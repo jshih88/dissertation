@@ -74,13 +74,13 @@ To use this repository:
 
 **Base Directory** = "stata/"
 
-1. Run "do_files/js_all_data_regress_iq8_exposures_age_sex_ses.do" in Stata to create the log files in directory "log_files/*.log". This do-file also includes do-files "js_template.do" and "js_gen_ses.do"
+1. Run "do_files/js_all_data_regress_z_iq8_exposures_age_sex_ses.do" in Stata to create the log files in directory "log_files/*.log". This do-file also includes do-files "js_template.do" and "js_gen_ses.do"
 
-2. Run "scripts/js_all_data_regress_iq8_results.sh" that uses "log_files/*.log" to create the consolidated table "tables/js_all_data_regress_iq8_results.csv"
+2. Run "scripts/js_all_data_regress_z_iq8_results.sh" that uses "log_files/*.log" to create the consolidated table "tables/js_all_data_regress_z_iq8_results.csv"
 
-3. Run "scripts/js_all_data_regress_iq8_exposures_plot_by_age.do" that uses "tables/js_all_data_regress_iq8_results.csv" to create plots in "figures/iq8_<age>_all_depvars_sorted.png"
+3. Run "scripts/js_all_data_regress_z_iq8_exposures_plot_by_age.do" that uses "tables/js_all_data_regress_z_iq8_results.csv" to create plots in "figures/iq8_<age>_all_depvars_sorted.png"
 
-4. Run "scripts/js_all_data_regress_iq8_exposures_plot_by_depvars.do" that uses "tables/js_all_data_regress_iq8_results.csv" to create plots in "figures/js_all_data_regress_iq8_<depvar>_age_sex_ses.png"
+4. Run "scripts/js_all_data_regress_z_iq8_exposures_plot_by_depvars.do" that uses "tables/js_all_data_regress_z_iq8_results.csv" to create plots in "figures/js_all_data_regress_z_iq8_<depvar>_age_sex_ses.png"
 
 ### Python Data Science Ecosystem Analysis
 

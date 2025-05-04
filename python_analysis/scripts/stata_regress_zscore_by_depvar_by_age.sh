@@ -3,7 +3,8 @@
 parse_logs ()
 {
   infile=$1
-  summary_list=$(egrep "^z_|Number of obs|Adj R-squared|^               total_iq_8" ${infile} | sed -e 's/^.*Number/Number/g' -e 's/^.*Adj/Adj/g' -e 's/\|//g' | dos2unix | paste -d' ' - - - -)
+#  summary_list=$(egrep "^z_|Number of obs|Adj R-squared|^               total_iq_8" ${infile} | sed -e 's/^.*Number/Number/g' -e 's/^.*Adj/Adj/g' -e 's/\|//g' | dos2unix | paste -d' ' - - - -)
+  summary_list=$(egrep "^z_|Number of obs|Adj R-squared|^             z_total_iq_8" ${infile} | egrep -v "^z_total_iq_8|^z_IQ" | sed -e 's/^.*Number/Number/g' -e 's/^.*Adj/Adj/g' -e 's/\|//g' | dos2unix | paste -d' ' - - - -)
 
   echo " DepVar        Coefficient(95% CI)        P-value      R2        Num-of-obs  Missed-Values"
   echo "---------  ---------------------------    -------    ------      ----------  ------------"
@@ -33,7 +34,7 @@ parse_logs ()
 }
 
 # list of all the log files that will be parsed
-log_list="js_all_data_regress_iq8_bmi_age_sex_ses.log js_all_data_regress_iq8_wc_age_sex_ses.log js_all_data_regress_iq8_bp_sys_age_sex_ses.log js_all_data_regress_iq8_bp_dia_age_sex_ses.log js_all_data_regress_iq8_chol_age_sex_ses.log js_all_data_regress_iq8_hdl_age_sex_ses.log js_all_data_regress_iq8_ldl_age_sex_ses.log js_all_data_regress_iq8_trig_age_sex_ses.log js_all_data_regress_iq8_glc_meta_age_sex_ses.log js_all_data_regress_iq8_insul_age_sex_ses.log"
+log_list="js_all_data_regress_z_iq8_bmi_age_sex_ses.log js_all_data_regress_z_iq8_wc_age_sex_ses.log js_all_data_regress_z_iq8_bp_sys_age_sex_ses.log js_all_data_regress_z_iq8_bp_dia_age_sex_ses.log js_all_data_regress_z_iq8_chol_age_sex_ses.log js_all_data_regress_z_iq8_hdl_age_sex_ses.log js_all_data_regress_z_iq8_ldl_age_sex_ses.log js_all_data_regress_z_iq8_trig_age_sex_ses.log js_all_data_regress_z_iq8_glc_meta_age_sex_ses.log js_all_data_regress_z_iq8_insul_age_sex_ses.log"
 
 log_dir="../../stata/log_files"
 

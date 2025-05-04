@@ -286,8 +286,8 @@ from scipy import stats
 import warnings
 
 # Fixed y-axis range for all plots
-Y_MIN = -0.006
-Y_MAX = 0.004
+Y_MIN = -0.1
+Y_MAX = 0.05
 
 # Create individual trajectory plots for each risk category
 for category, factors in risk_categories.items():
