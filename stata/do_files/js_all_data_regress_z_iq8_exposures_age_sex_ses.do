@@ -30,7 +30,7 @@ foreach vexpo of local exposure_vars {
 		// Start log (ensure directory exists)
 		capture mkdir "output"
 		capture log close
-		log using "output/js_all_data_regress_z_iq8_`vexpo'_age_sex_ses.log", replace
+		log using "output\js_all_data_regress_z_iq8_`vexpo'_age_sex_ses.log", replace
 
 		// *** Standardize the exposure (IQ) ***
         zscore total_iq_`viq'
@@ -91,12 +91,12 @@ foreach vexpo of local exposure_vars {
 			title("Combined Association: [Childhood z_IQ at `viq'] and [`label_text'] Across Ages with ALL data", size(medium) span) ///
 			subtitle("Adjusted for Age, Sex and SES", size(small)) ///
 			legend(off) ///
-			xline(0, lpattern(dash) lcolor(black)) ///
-			xscale(range(-0.02 0.01)) ///
-			xlabel(-0.02(0.005)0.01, format(%4.3f)) ///
-			plotregion(color(white)) graphregion(color(white))
-
-		graph export "output/js_all_data_regress_z_iq8_`vexpo'_age_sex_ses.png", width(2000) height(1200) replace
+            xline(0, lpattern(dash) lcolor(black)) ///
+            plotregion(color(white)) graphregion(color(white)) ///
+            xscale(range(-0.15 0.15)) ///
+            xlabel(-0.15 -0.10 -0.05 0.00 0.05 0.10 0.15, labsize(small))
+		
+		graph export "output\js_all_data_regress_z_iq8_`vexpo'_age_sex_ses.png", width(2000) height(1200) replace
 
 		log close
 		restore
